@@ -15,6 +15,26 @@
     <artifactId>third-party-protocol</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
+    <name>Envision-Third-Party-Protocol</name>
+
+    <description>
+        third-party-protocol Using JAR for Device Protocol
+    </description>
+
+    <url>https://github.com/EnvisionIot/third-party-protocol</url>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+    <scm>
+        <url>git@github.com:EnvisionIot/third-party-protocol.git</url>
+        <connection>scm:git:git@github.com:EnvisionIot/third-party-protocol.git</connection>
+    </scm>
+
     <modules>
         <module>core</module>
         <module>haystack</module>
