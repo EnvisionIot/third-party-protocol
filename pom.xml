@@ -7,7 +7,7 @@
     <groupId>com.envisioniot.enos.third_party_protocol</groupId>
     <artifactId>third-party-protocol</artifactId>
     <packaging>pom</packaging>
-    <version>1.0</version>
+    <version>1.0.0</version>
 
     <modules>
         <module>core</module>
