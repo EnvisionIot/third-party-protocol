@@ -1,0 +1,33 @@
+{
+  "ignoreInvalidMeasurePoint":false,
+  "points":[
+    {
+      "equipRef":"{{equipId-1}}",
+      "kind":"Number",
+      "navName":"mp_001",
+      "siteRef":"siteA",
+      "curVal":"59.2401°F"
+    },
+    {
+      "equipRef":"{{equipId-1}}",
+      "kind":"Str",
+      "navName":"mp_002",
+      "siteRef":"siteA",
+      "curVal":"hello-world"
+    },
+    {
+      "equipRef":"{{equipId-2}}",
+      "kind":"Bool",
+      "navName":"mp_003",
+      "siteRef":"siteA",
+      "curVal":"T"
+    },
+    {
+      "equipRef":"{{equipId-2}}",
+      "kind":"Number",
+      "navName":"mp_004",
+      "siteRef":"siteA",
+      "curVal":"5.8685kW"
+    }
+  ]
+}

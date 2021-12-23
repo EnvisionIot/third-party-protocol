@@ -1,0 +1,129 @@
+1) /createDevice
+{
+    "equips":[
+        {
+            "id":"equipDev1",
+            "modelType":"model-1",
+            "siteRef":"siteA"
+        },
+        {
+            "id":"equipDev2",
+            "modelType":"model-1",
+            "siteRef":"siteA"
+        }
+    ],
+    "points":[
+        {
+            "equipRef":"equipDev1",
+            "kind":"Str",
+            "navName":"mp_001",
+            "siteRef":"siteA"
+        },
+        {
+            "equipRef":"equipDev1",
+            "kind":"Bool",
+            "navName":"mp_002",
+            "siteRef":"siteA"
+        },
+        {
+            "equipRef":"equipDev2",
+            "kind":"Number",
+            "navName":"mp_003",
+            "siteRef":"siteA"
+        },
+        {
+            "equipRef":"equipDev2",
+            "kind":"Str",
+            "navName":"mp_004",
+            "siteRef":"siteA"
+        }
+    ],
+    "sites":[
+        {
+            "id":"siteA",
+            "tz":"Asia/Shanghai"
+        }
+    ]
+}
+
+2) /updateModel
+{
+    "isPartialUpdate":true,
+    "points":[
+        {
+            "equipRef":"equipDev1",
+            "kind":"Number",
+            "navName":"mp_001",
+            "siteRef":"siteA"
+        },
+        {
+            "equipRef":"equipDev1",
+            "kind":"Str",
+            "navName":"mp_002",
+            "siteRef":"siteA"
+        },
+        {
+            "equipRef":"equipDev2",
+            "kind":"Bool",
+            "navName":"mp_003",
+            "siteRef":"siteA"
+        },
+        {
+            "equipRef":"equipDev2",
+            "kind":"Number",
+            "navName":"mp_004",
+            "siteRef":"siteA"
+        }
+    ]
+}
+
+3) /postMeasurepoint
+{
+    "ignoreInvalidMeasurePoint":false,
+    "points":[
+        {
+            "equipRef":"equipDev1",
+            "kind":"Number",
+            "navName":"mp_001",
+            "siteRef":"siteA",
+            "curVal":"59.2401°F"
+        },
+        {
+            "equipRef":"equipDev1",
+            "kind":"Str",
+            "navName":"mp_002",
+            "siteRef":"siteA",
+            "curVal":"hello-world"
+        },
+        {
+            "equipRef":"equipDev2",
+            "kind":"Bool",
+            "navName":"mp_003",
+            "siteRef":"siteA",
+            "curVal":"T"
+        },
+        {
+            "equipRef":"equipDev2",
+            "kind":"Number",
+            "navName":"mp_004",
+            "siteRef":"siteA",
+            "curVal":"5.8685kW"
+        }
+    ]
+}
+
+4) /loginDevice
+{
+    "loginInfos":[
+        {
+            "equipRef":"equipDev1",
+            "siteRef":"siteA",
+            "deviceSecret": "MuEulCgkMo0vgfGiBgc5"
+        },
+        {
+            "equipRef":"equipDev2",
+            "siteRef":"siteA",
+            "deviceSecret": "yWhSEalA6IqE9S5xPHyy"
+        }
+    ]
+}

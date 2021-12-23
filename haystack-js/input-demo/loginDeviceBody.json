@@ -1,0 +1,14 @@
+{
+  "loginInfos":[
+    {
+      "equipRef":"{{equipId-1}}",
+      "siteRef":"siteA",
+      "deviceSecret": "{{deviceSecret-1}}"
+    },
+    {
+      "equipRef":"{{equipId-2}}",
+      "siteRef":"siteA",
+      "deviceSecret": "{{deviceSecret-2}}"
+    }
+  ]
+}
